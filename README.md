@@ -1,8 +1,8 @@
-# Auth Package: `mongoauth`
+# Auth Package: `exp-mongo-auth`
 
 ## Overview
 
-The `mongoauth` package provides a prebuilt authentication solution using MongoDB and Express. It offers essential authentication features, such as user registration, login, password reset, profile updates, and email verification, while leveraging MongoDB for user data storage. This package is designed to streamline the process of adding authentication to your Node.js application.
+The `exp-mongo-auth` package provides a prebuilt authentication solution using MongoDB and Express. It offers essential authentication features, such as user registration, login, password reset, profile updates, and email verification, while leveraging MongoDB for user data storage. This package is designed to streamline the process of adding authentication to your Node.js application.
 
 ---
 
@@ -22,7 +22,7 @@ The `mongoauth` package provides a prebuilt authentication solution using MongoD
 
 ```bash
 
-npm install mongoauth
+npm install exp-mongo-auth
 
 ```
 
@@ -35,7 +35,7 @@ Here's how you can set up and use the backend authentication package in your pro
 ```javascript
 const express = require('express');
 const mongoose = require('mongoose');
-const { createAuthRouter } = require('backend');
+const { createAuthRouter } = require('exp-mongo-auth');
 require('dotenv').config();
 
 const app = express();
@@ -226,10 +226,3 @@ The `config` object requires the following:
 | `frontendUrl` | string | URL of your frontend application.              |
 | `validDomains`| Map    | Map of allowed email domains and their labels. |
 
-## Example Frontend Integration
-
-You can use the `/api/user` routes in your frontend to manage user authentication, email verification, and profile updates.
-
-## License
-
-This package is licensed under the MIT License. Feel free to use and modify it as needed.
