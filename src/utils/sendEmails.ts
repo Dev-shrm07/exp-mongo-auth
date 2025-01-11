@@ -29,7 +29,7 @@ export const SendMail = async(email:string)=>{
             html: `
                 <h2>Signup Request</h2>
                 <p>To verify your email, click on the link below:</p>
-                <a href="${verificationUrl}">Reset Password</a>
+                <a href="${verificationUrl}">Verify Email</a>
                 <p>This link will expire in 1 hour.</p>
                 <p>If you did not request this, please ignore this email.</p>
         `

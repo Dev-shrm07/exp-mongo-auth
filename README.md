@@ -226,3 +226,6 @@ The `config` object requires the following:
 | `frontendUrl` | string | URL of your frontend application.              |
 | `validDomains`| Map    | Map of allowed email domains and their labels. |
 
+
+This code is open-source and available on [GitHub](https://github.com/Dev-shrm07/mongoauth/tree/main).
+The package is live and can be found on [npm](https://www.npmjs.com/package/exp-mongo-auth).
