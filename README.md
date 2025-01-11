@@ -226,10 +226,3 @@ The `config` object requires the following:
 | `frontendUrl` | string | URL of your frontend application.              |
 | `validDomains`| Map    | Map of allowed email domains and their labels. |
 
-## Example Frontend Integration
-
-You can use the `/api/user` routes in your frontend to manage user authentication, email verification, and profile updates.
-
-## License
-
-This package is licensed under the MIT License. Feel free to use and modify it as needed.
