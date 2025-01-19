@@ -199,8 +199,8 @@ Verifies the user's email using the token.
 
 ```json
 {
-  "name": "New Name",
-  "bio": "Updated bio"
+  "username": "New userName",
+  "profileImg": "Updated bio"
 }
 ```
 
