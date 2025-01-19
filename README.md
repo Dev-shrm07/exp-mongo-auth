@@ -4,7 +4,7 @@
 
 The `exp-mongo-auth` package provides a prebuilt authentication solution using MongoDB and Express. It offers essential authentication features, such as user registration, login, password reset, profile updates, and email verification, while leveraging MongoDB for user data storage. This package is designed to streamline the process of adding authentication to your Node.js application.
 
----
+--- 
 
 ## Features
 
